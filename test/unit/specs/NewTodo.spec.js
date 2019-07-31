@@ -23,12 +23,12 @@ describe('NewTodo.vue', () => {
 
   describe('Should set the default data correctly', () => {
     let Constructor, vm, defaultData;
-    before(()=> {
+    before(() => {
       Constructor = Vue.extend(NewTodo);
       vm = new Constructor().$mount();
       defaultData = vm.$options.data();
     });
-    
+
     it('newTodo should be a empty string', () => {
       expect(defaultData.newTodo)
         .to.equal('');

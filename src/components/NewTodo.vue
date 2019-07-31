@@ -25,7 +25,7 @@ export default {
   // note there's no DOM manipulation here at all.
   methods: {
     addTodo: function () {
-      var value = this.newTodo && this.newTodo.trim();
+      let value = this.newTodo && this.newTodo.trim();
       if (!value) {
         return;
       }

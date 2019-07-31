@@ -128,7 +128,7 @@ export default {
     },
 
     fetch: function () {
-      var todos = JSON.parse(localStorage.getItem(this.STORAGE_KEY) || '[]');
+      let todos = JSON.parse(localStorage.getItem(this.STORAGE_KEY) || '[]');
       todos.forEach(function (todo, index) {
         todo.id = index;
       });
