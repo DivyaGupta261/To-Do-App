@@ -13,10 +13,11 @@
     "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs",
     "build": "node build/build.js",
     "start": "npm run build && node server.js"
-
   },
   "dependencies": {
     "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "serve-static": "^1.14.1",
     "vue": "^2.5.2"
   },
   "devDependencies": {
