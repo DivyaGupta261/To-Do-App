@@ -1,7 +1,16 @@
 # todo-unit1
 
 > A Simple Todo with Vue.js
+
 > Unit tested with 100% test coverage
+
+
+**Live Demo:** https://todo.divyagupta.dev
+
+**Unit Test Report:** https://todo.divyagupta.dev/unit-report/units.html
+
+**Test Coverage Report:** https://todo.divyagupta.dev/lcov-report/
+
 
 ## Build Setup
 
